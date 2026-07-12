@@ -12,9 +12,9 @@ jobs:
         id: my-action
         uses: ./
         with:
-          who-to-greet: '@xuwang50309'
+          who-to-greet: '...Wang50309'
 
-      - name: Output the nswer
+      - name: Output the answer
         run: echo "The answer is ${{ steps.my-action.outputs.answer }}"
 
       - name: Test the container
