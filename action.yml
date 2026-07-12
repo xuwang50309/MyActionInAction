@@ -1,12 +1,12 @@
 name: "xuwang50309's Action in Action"
 description: 'Greets someone and returns always 42.'
 inputs:
-  who-to-greet: # id of input
+  who-to-greet: 'myname'
     description: 'Who to greet'
     required: true
     default: 'World'
 outputs:
-  answer: # id of output
+  answer: 'myanswer'
     description: 'The answer to everythig (always 42)'
 runs:
   using: 'docker'
