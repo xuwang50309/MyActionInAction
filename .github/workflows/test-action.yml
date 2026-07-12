@@ -8,7 +8,7 @@ jobs:
       - name: Checkout repo to use the action locally
         uses: actions/checkout@v7.0.0
 
-      - name: Run my own contaiiner
+      - name: Run my own container action
         id: my-action
         uses: ./
         with:
